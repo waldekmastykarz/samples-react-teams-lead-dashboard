@@ -1,0 +1,54 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "lead-assist-client-side-solution",
+    "id": "c311a0fc-3dcb-4316-a798-fd7d8a6d5344",
+    "version": "1.0.13.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Tasks.ReadWrite"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Calendars.ReadWrite"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Files.ReadWrite"
+      }
+    ],
+    "developer": {
+      "name": "PnP",
+      "websiteUrl": "https://pnp.github.io/",
+      "privacyUrl": "https://pnp.github.io/",
+      "termsOfUseUrl": "https://pnp.github.io/",
+      "mpnId": ""
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "lead-assist description"
+      },
+      "longDescription": {
+        "default": "lead-assist description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "lead-assist Feature",
+        "description": "The feature that activates elements of the lead-assist solution.",
+        "id": "f43fe7e8-1408-4231-a78d-8a4fc884a04d",
+        "version": "1.0.13.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/lead-assist.sppkg"
+  }
+}
