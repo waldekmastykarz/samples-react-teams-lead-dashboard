@@ -1,7 +1,7 @@
 {
     "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.14/MicrosoftTeams.schema.json",
     "manifestVersion": "1.14",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "showLoadingIndicator": false,
     "id": "2c198bf5-aae4-497a-ac0f-74b78a77b0ae",
     "packageName": "com.pnp.leadassistdashboard2",
@@ -55,6 +55,7 @@
         "piasysdev.sharepoint.com",
         "*.login.microsoftonline.com",
         "*.sharepoint-df.com",
+        "*.sharepoint.com",
         "spoppe-a.akamaihd.net",
         "spoprod-a.akamaihd.net",
         "resourceseng.blob.core.windows.net",
